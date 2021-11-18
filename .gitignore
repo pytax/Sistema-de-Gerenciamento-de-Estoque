@@ -1,0 +1,19 @@
+venv
+files
+.idea
+build
+dist
+icons
+icons.qrc
+Resumo de notas.xlsx
+Sistema de gerenciamento.exe
+system.db
+ui_main.ui
+ui_main_pt.ui
+index.html
+Media
+player
+xml
+dist
+
+
