@@ -325,7 +325,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def graphic(self):
 
         cnx = sqlite3.connect("system.db")
-        estoque = pd.read_sql_query('SELECT * FROM Notas', cnx)
+        estoque = pd.read_sql_query("SELECT * FROM Notas WHERE data_saida = ''", cnx)
         saida = pd.read_sql_query("SELECT * FROM Notas WHERE data_saida != ''", cnx)
 
         estoque = len(estoque)
